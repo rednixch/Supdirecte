@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.rang {
+    background-color: black;
+    padding: 0px 5px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+.podium {
+    background-color: #0077ff;
+}
+
+.elite {
+    background-color: #ff0000;
+}
+
+.note:hover {
+    background-color: #e3e3e3;
+    border-radius: 200px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.note {
+    transition: 0.3s;
+}
+
+.notes{
+    padding: 10px !important;
+}
+
+sup.coef{ 
+    width: 20px !important;
+    margin-right: 5px !important;
+}
+
+td.coef {
+    text-align: center;
+    padding: 15px !important;
+}
+
+.relevemoyenne{
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.stability{
+    color: blue
+}
+
+.relevemoyenne span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.relevemoyenne span:hover{
+    padding: 5px;
+    background-color: #e3e3e3;
+    border-radius: 200px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#encart-notes .note {
+    margin: 0px 5px 0 0 !important;
+}
+
+.graph{
+    width: 50px !important;
+}
+
+.discipline{
+    width: 190px !important;
+    padding: 10px !important;
+}
+
+
+.navbar{
+    background: var(--dark-primary-color) !important;
+}
+
+.ed-menu-image-wrapper div:before{
+    background: linear-gradient(rgba(13, 79, 147, 0), var(--dark-primary-color)) !important;
+}
+
+.impacts{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.nommatiere b{
+    display: inline-block;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.nommatiere:hover{
+    background-color: #e3e3e3;
+    border-radius: 200px;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.valeur{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 3px;
+}
+
+.nommatiere{
+    transition: 0.3s;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+}
+
+b:first-letter{
+    text-transform: uppercase;
+}
+
+.table{
+    font-family: "Inter", sans-serif;
+}

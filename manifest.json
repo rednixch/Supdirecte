@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Sup'directe",
+  "version": "1.0",
+  "description": "Add ranking information to the EcoleDirecte notes page.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.ecoledirecte.com/*"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "content.js",
+        "inject.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "https://api.ecoledirecte.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "injected.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
