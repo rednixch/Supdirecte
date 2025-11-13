@@ -1,6 +1,10 @@
 # Supdirecte
 Extension ED pour afficher une estimation son rang dans les notes.
 
+# Installation
+Téléchargez le fichier zip des releases.
+Rendez-vous ensuite sur chrome://extensions (ou par exemple edge://extensions sur edge ou brave://extensions sur brave ) puis cliquez sur "load unpacked". Vous ajoutez ensuite le fichier zip téléchargé.
+
 # Formule
     const facteur = ((max - value) * (nombreEleves - 1)) / (max - min);
     const ajustement = 1 + ((moyenneClasse - value) / (moyenneClasse - min));
