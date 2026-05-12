@@ -12,4 +12,4 @@ Rendez-vous ensuite sur chrome://extensions (ou par exemple edge://extensions su
     let classementCalcule = 1 + facteur * ajustement;
 
 # Attention
-Cette extension ne récupère aucune information qui n'est pas << affichée >> ou qui ne devrait pas être montrée. C'est juste une formule qui se sert des donnés à disposition pour fournir et afficher une estimation du rang qui se peut être de grossière (+- 5 rang ou plus). Elle permet une meilleure visualisation de son niveau mais il est déconséillé de ne se baser que sur cette donnée là.
+Cette extension ne récupère aucune information qui n'est pas << affichée >> ou qui ne devrait pas être montrée. C'est juste une formule qui se sert des donnés à disposition pour fournir et afficher une estimation du rang qui se peut être grossière (+- 5 rang ou plus). Elle permet une meilleure visualisation de son niveau mais il est déconséillé de ne se baser que sur cette donnée là.
