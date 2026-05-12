@@ -1,5 +1,6 @@
 # Supdirecte
 Extension ED pour afficher une estimation son rang dans les notes.
+<img width="1191" height="677" alt="image" src="https://github.com/user-attachments/assets/223cc72d-09cf-4a5f-a01e-4038e323e33e" />
 
 # Installation
 Téléchargez le fichier zip des [releases](https://github.com/rednixch/Supdirecte/releases).
